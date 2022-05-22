@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giriş</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="#">
+                <h1>Kayıt Oluştur</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+                <span>veya kayıt için e-mail kullanın</span>
+
+                <input class="email" type="email" placeholder="E-mail" />
+                <input class="password" type="password" placeholder="Şifre" />
+                <button class="registerBtn">Kayıt Ol</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form action="#">
+                <h1>Giriş Ekranı</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                </div>
+                <span>veya e-mail ile giriş yapın</span>
+                <input id="email" type="email" placeholder="E-mail" />
+                <input id="password" type="password" placeholder="Şifre" />
+                <a href="./forgetPassword.html?">Şifremi Unuttum</a>
+                <button id="loginBtn">Giriş Yap</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Hoşgeldiniz!</h1>
+                    <p>Zaten hesabınız var mı ? </p>
+                    <button class="ghost" id="signIn">Giriş Yap</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Tekrar Hoşgeldiniz</h1>
+                    <p>Hesabınız yok mu ? Hemen kayıt Olun !</p>
+                    <button class="ghost" id="signUp">Kayıt Ol</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+    </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase-auth.js"></script>
+    <script src="Login.js"></script>
+
+
+</body>
+
+</html>
