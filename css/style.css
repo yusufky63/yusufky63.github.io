@@ -20,10 +20,10 @@
         padding-top: 15px;
     }
     
-    .fav-btn {
+    .filter-btn {
         width: 160px;
         background-size: 30px;
-        background-image: url("../img/favorites.png");
+        background-image: url("../img/filter.png");
         background-repeat: no-repeat;
         background-position: 5px;
     }
@@ -245,7 +245,6 @@
             transform: scale(1);
         }
     }
-    /* Button Add to Card */
     
     .btn-add-to-cart {
         width: 150px;
@@ -285,7 +284,6 @@
     .navbar .login-btn:hover {
         color: rgb(0, 26, 255);
     }
-    /* From uiverse.io by @Custyyyy */
     
     .button-name {
         align-items: center;

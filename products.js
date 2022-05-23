@@ -27,7 +27,6 @@ $(document).ready(function() {
         <div class="card-title mt-2  d-flex align-items-center">
             <h4 class="product-title">${title}</h4>
             <div class="card-description small mb-2 ms-2"></div>
-
         </div>
     </div>
     <div class="card-price d-flex align-items-center">
@@ -41,10 +40,10 @@ $(document).ready(function() {
         <a class="dot dot-4 btn m-3"></a>
     </div>
     <div class="card-body-size ">
-        <a class="body-size-item btn  m-1" href="#">XS</a>
-        <a class="body-size-item btn  m-1" href="#">S</a>
-        <a class="body-size-item btn  m-1" href="#">L</a>
-        <a class="body-size-item btn  m-1" href="#">XL</a>
+        <a class="body-size-item btn  m-1">XS</a>
+        <a class="body-size-item btn  m-1" >S</a>
+        <a class="body-size-item btn  m-1">L</a>
+        <a class="body-size-item btn  m-1" >XL</a>
     </div>
     <div class="card-addtocard my-2 ">
         <button id="btnaddtocart" class="btn-add-to-cart" data-id=${id}>
